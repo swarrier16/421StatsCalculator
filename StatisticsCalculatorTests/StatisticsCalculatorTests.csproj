@@ -15,5 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\StatisticsCalculator\StatisticsCalculator.csproj" />
+    <ProjectReference Include="..\Random\RandomGen.csproj" />
   </ItemGroup>
 </Project>

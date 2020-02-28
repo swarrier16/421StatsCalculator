@@ -179,9 +179,11 @@ namespace StatisticsCalculator
                 Console.WriteLine(zscores[i]);
             }
 
-                return zscores;
+            return zscores;
 
         }
+
+
     }
 
 }
