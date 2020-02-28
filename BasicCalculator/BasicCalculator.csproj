@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Division\Division.csproj" />
+    <ProjectReference Include="..\MathOperations\MathOperations.csproj" />
+    <ProjectReference Include="..\Multiplication\Multiplication.csproj" />
+    <ProjectReference Include="..\Square\Square.csproj" />
+    <ProjectReference Include="..\SquareRoot\SquareRoot.csproj" />
+    <ProjectReference Include="..\Subtraction\Subtraction.csproj" />
+    <ProjectReference Include="..\Addition\Addition.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="CsvHelper" Version="15.0.0" />
+  </ItemGroup>
+</Project>
